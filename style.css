@@ -1,0 +1,14 @@
+/*
+ Theme Name:   Gridbox Child
+ Description:  Thème enfant de Gridbox
+ Author:       Mayahi
+ Author URI:   https://mayahi-adel.com
+ Template:     gridbox
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+*/
+
+:root {
+    --header-background-color: #674c45;
+    --footer-background-color: #674c45;
+}
