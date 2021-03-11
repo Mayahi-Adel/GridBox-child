@@ -18,7 +18,9 @@
 		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
 
 			<div id="footer-text" class="site-info">
-				Created by Mayahi-Adel - All right reserved
+			<a href="<?php echo esc_url( get_theme_mod( 'grid_child_custom_footer_setting_link' )); ?>">
+				<?php echo esc_html ( get_theme_mod( 'grid_child_custom_footer_setting_text' ) );   ?>
+			</a>
 			</div><!-- .site-info -->
 			
 			<?php do_action( 'gridbox_footer_menu' ); ?>
